@@ -1,0 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: F*ck feelings
+email: oi@morrer.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+logo: "http://i.imgur.com/8q9CAMG.png"
+cover: "http://i.imgur.com/3Ofp0yp.jpg"
+favicon: "http://i.imgur.com/3Ofp0yp.jpg"
+
+#Config
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://morrer.com.br" # the base hostname & protocol for your site
+
+# mostrando somente o título
+permalink: /:title/
+
+# PAGINATION
+gems: [jekyll-paginate]
+paginate: 1
+#paginate_path: "_posts/page:num"
+
+#Socials
+twitter_username: ftonato
+github_username:  ftonato
+
+# Build settings
+##markdown: kramdown

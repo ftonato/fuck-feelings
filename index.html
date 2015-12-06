@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<ol class="posts">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}" title="link to {{ post.title }}">
+      <h2>{{ post.title }}</h2>
+    </a>
+      <p class="post description">{{ post.excerpt }}&hellip;</p>
+    <div class="post meta">
+      <time datetime="">{{ post.date | date: "%b %-d, %Y" }}
+        <!-- datetime="{{date format="DD MMM YYYY"}}" -->
+        <!-- {{date format="DD MMM YYYY"}} -->
+      </time> em
+      <span class="post tags">
+        {% for categorie in post.categories %}
+        <!-- <a href="/tag/{{ categorie }}/">{{ categorie }}</a> -->
+        <a href="javascript:;">{{ categorie }}</a>
+        {% endfor %}
+      </span>
+      <!-- {{ tags prefix="on " separator=" "}} -->
+    </div>
+    <hr class="divider post" />
+  </li>
+  {% endfor %}
+</ol>
+
+<!-- Pagination links -->
+<!-- <nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+  <a rel="next" class="posts newer btn small" href="{{page_url prev}}#open">&larr; Recentes</a>
+  {% endif %}
+  <span class="posts index">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a rel="prev" class="posts older btn small" href="{{page_url next}}#open">Antigas &rarr;</a>
+  {% endif %}
+</nav> -->
