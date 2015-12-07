@@ -11,16 +11,12 @@ layout: default
       <p class="post description">{{ post.excerpt }}&hellip;</p>
     <div class="post meta">
       <time datetime="">{{ post.date | date: "%b %-d, %Y" }}
-        <!-- datetime="{{date format="DD MMM YYYY"}}" -->
-        <!-- {{date format="DD MMM YYYY"}} -->
       </time> em
       <span class="post tags">
         {% for categorie in post.categories %}
-        <!-- <a href="/tag/{{ categorie }}/">{{ categorie }}</a> -->
         <a href="javascript:;">{{ categorie }}</a>
         {% endfor %}
       </span>
-      <!-- {{ tags prefix="on " separator=" "}} -->
     </div>
     <hr class="divider post" />
   </li>
