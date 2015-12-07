@@ -21,8 +21,8 @@ Hoje me mantive na presença de algumas pessoas muito especiais, pessoas essas q
 ~
   [Guilherme](http://twitter.com/@Gmichel__){:target="_blank"}
 , [Thainá](http://twitter.com/@UmaTal_DeBombom){:target="_blank"}
-, [Marizete](http://twitter.com/){:target="_blank"}
-, [Alvarino](http://twitter.com/){:target="_blank"}
+, [Marizete](https://www.facebook.com/zete.silva.37){:target="_blank"}
+, [Alvarino](https://www.facebook.com/alvarino.milanez.5){:target="_blank"}
 ~ 
 
 <!-- ![Àquela imagem sobre amizades](https://pbs.twimg.com/media/CUfK67JW4AAJSOa.jpg) -->
