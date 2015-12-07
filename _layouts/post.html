@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<article class="post">
+	<header>
+		<a id="back-button" class="btn small square" href="javascript:history.back()">← Voltar</a>
+		<div class="post meta">
+			<time datetime="{{ page.date | date: '%b %-d, %Y' }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+
+			<span class="post reading-time"> ~ <span>{{ page.reading-time }} minuto(s)</span> para ler.</span>
+
+			<br><br>
+
+			<span class="post tags">
+				{% for categorie in page.categories %}
+        <!-- <a href="/tag/{{ categorie }}/">{{ categorie }}</a> -->
+				<a href="javascript:;">{{ categorie }}</a>
+				{% endfor %}
+			</span>
+		</div>
+
+		<h1 id="post-title">{{ page.title }}</h1>
+	</header>
+
+	<div class="post-content post" itemprop="articleBody">
+		{{content}}
+	</div>
+
+	<!-- Share -->
+	<div class="share-page">
+    <span style="display:block; padding: 5px">Compartilhe</span>
+
+    <a class="share" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Compartilhe no Twitter">
+      <i class="icon-social-twitter"></i> Twitter
+    </a>
+    &nbsp;
+    <a class="share" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Compartilhe no Facebook">
+      <i class="icon-social-facebook"></i> Facebook
+    </a>
+  </div>
+
+  <!-- Navigation -->
+  <div class="navigation-page" style="display: block; justify-content: space-between; padding: 4rem 0 4rem;">
+    <div class="text-center">Já viu essas <strong>postagens</strong>?</div>
+
+    {% if page.previous.url %}
+    <a style="float:left; margin-top: 25px;" id="prev-btn" class="btn small square prev" href="{{page.previous.url}}">← {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a style="float:right; margin-top: 25px;" id="next-btn" class="btn small square next" href="{{page.next.url}}">{{page.next.title}} →</a>
+    {% endif %}
+  </div>
+
+  <!-- Comments -->
+  {% include comments.html %}
+
+</article>

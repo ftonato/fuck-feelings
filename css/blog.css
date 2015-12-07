@@ -1,0 +1,121 @@
+#back-button {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.btn:hover {
+  color: #19838E !important;
+  border-color: #19838E !important;
+}
+#post-title:hover {
+  color: #24BFCF !important;
+}
+.post-content a {
+  padding: 0px 0.2em;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  border-bottom: 1px dashed rgb(255, 46, 108);
+}
+.post-content a:hover {
+  color: #FFF;
+  border-color: rgb(255, 46, 108);
+  background: rgb(255, 46, 108) none repeat scroll 0% 0%;
+}
+main {
+  position: inherit;
+  padding: 2rem 3rem;
+  margin: 0 auto;
+  max-width: 60%;
+}
+.divider.post {
+  width: 90%;
+  margin: 1.7rem 5%;
+  border-top: 1px solid #ddd;
+}
+.btn {
+  border: none;
+}
+.text-center {
+  text-align: center;
+}
+/* Social */
+
+.icon-social-twitter {
+  display: inline-block;
+  max-width: 16px;
+  max-height: 16px;
+  height: 16px;
+  width: 16px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4jb2SP0hDQQzG05dXFRH/gIuboIMuji5SuqtrQQcXJ1cFV3HTzcnBQQTRvktQRMQuIoiTuImDu2PBWt/ltIMYh2pp+7jyBjHwLTl+yZfkAP4lTt0IklsOyK0Av4038kcv/QDFeDhgt+FjQ7Z5JKkgif6ohuR2keQGjJ0EJDeLJBqS7MCB9rTQmxogyXMT3Kz7gGUNsvw+/ZsMjTyhsQUoaTcAAJjqmAdWJIlgT7MAqhlkuWt7LCPZcyTZ9xYwtlCfkeIZJLlEkq8O3RIKozhXn/PsdbBtSWlUAy73NXaF7OaQnE1dgKXUeqsL7UUjh0jymco+23zy3ka2Ujooej8cGjePJFc+OGB5AK4MJEnVTFdRpkKSbSRxngLXcFwdSlqP4hyy3Hq7kjwiyxKoZrzWAQAg+hhFksWAZT0gWUVjF+AknugM/UF8A/7AhN+9WWnEAAAAAElFTkSuQmCC');
+}
+.icon-social-facebook {
+  display: inline-block;
+  max-width: 16px;
+  max-height: 16px;
+  height: 16px;
+  width: 16px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiklEQVQ4jWNgwAFCQ1cx2wdtbbMP3HrTPnDrL/vArf/tArduwaUeA9gFbA2zD9z6HxmTZIBD4JYlCM3b3tgFbj3gELithWgD7AO27obbHLTFj2iNcAMCtxyGGeAQuN2GaI12AVv6oba/h3shYOtpiNi2RpJsxoJnU2SAXcDWeqK9QnYYjBowFA0AAOayqNUR8e7zAAAAAElFTkSuQmCC');
+}
+.share-page {
+  padding: .5rem;
+  text-align: center;
+}
+.share {
+  color: #03A9F4;
+}
+.share:hover,
+.share:focus {
+  color: #19838E !important;
+}
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+   @font-face {
+    font-family: 'Voyager Grotesque';
+    src: url(' ../fonts/voyager-grotesque.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*@font-face {
+  font-family: 'Veger Bold';
+  src: url('../fonts/veger-bold-2.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Veger Light';
+  src: url('../fonts/veger-light.ttf');
+  font-weight: normal;
+  font-style: normal;
+  }*/
+
+  .container-title {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .site-title {
+    display: block;
+    text-align: center;
+    font-size: 180%;
+    font-family: 'Voyager Grotesque', sans-serif;
+    /*font-family: 'Veger Bold', sans-serif;*/
+    /*font-family: 'Veger Light', sans-serif;*/
+
+    margin-top: 0;
+    margin-top: 5rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgb(255, 46, 108);
+  }
+  .site-title:hover,
+  .site-title:focus {
+    color: rgb(255, 46, 108);
+  }
+  @media (min-width: 78em) {
+    /* We increase the header font size even more */
+
+    .site-title {
+      font-size: 300%;
+    }
+  }
