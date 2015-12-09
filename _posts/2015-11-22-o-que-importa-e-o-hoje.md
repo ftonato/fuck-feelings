@@ -2,7 +2,7 @@
 layout: post
 date:   2015-11-22 22:10:59 -0200
 title:  "O que importa é o hoje!"
-description:  ""
+description:  "Pequenos pontos sobre como agir de forma diferente da programada me faz entender que definitivamente o que importa é o hoje"
 categories: vida amizade pessoas
 reading-time: 3
 ---
