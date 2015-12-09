@@ -2,7 +2,7 @@
 layout: post
 date:   2015-11-03 22:53:59 -0200
 title:  "A mudança é só o início!"
-description:  ""
+description:  "Agir de forma diferente da programada é o início para que consigamos chegar a lugares que nunca imaginávamos"
 categories: vida mudancas
 reading-time: 3
 ---
