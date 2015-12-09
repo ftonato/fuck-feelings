@@ -2,7 +2,7 @@
 layout: post
 date:   2015-12-01 23:53:59 -0200
 title:  "Eu tenho um monte de coisas para fazer?"
-description:  ""
+description:  "Uma explicação simples dos motivos que às vezes me levam a abandonar os lugares e as pessoas com uma simples frase que nunca faz sentido para os ouvintes"
 categories: vida eu
 reading-time: 3
 ---
