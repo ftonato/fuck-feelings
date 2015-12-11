@@ -12,9 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-logo: "http://i.imgur.com/8q9CAMG.png"
-cover: "http://i.imgur.com/3Ofp0yp.jpg"
-favicon: "http://i.imgur.com/3Ofp0yp.jpg"
 
 #Config
 baseurl: "" # the subpath of your site, e.g. /blog
