@@ -19,9 +19,10 @@ url: "http://morrer.com.br" # the base hostname & protocol for your site
 permalink: /:title/
 
 # PAGINATION
-gems: [jekyll-paginate]
-paginate: 1
-#paginate_path: "_posts/page:num"
+gems:
+  - jekyll-paginate
+paginate: 6
+paginate_path: "/_posts/:num/"
 
 #Socials
 twitter_username: ftonato
