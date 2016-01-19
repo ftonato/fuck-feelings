@@ -8,7 +8,7 @@ layout: default
     <a href="{{ post.url | prepend: site.baseurl }}" title="link to {{ post.title }}">
       <h2>{{ post.title }}</h2>
     </a>
-      <p class="post description">{{ post.excerpt }}&hellip;</p>
+      <p class="post description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
     <div class="post meta">
       <time datetime="">{{ post.date | date: "%b %-d, %Y" }}
       </time> em
@@ -24,12 +24,12 @@ layout: default
 </ol>
 
 <!-- Pagination links -->
-<!-- <nav class="pagination" role="navigation">
+<nav class="pagination" role="navigation">
   {% if paginator.previous_page %}
-  <a rel="next" class="posts newer btn small" href="{{page_url prev}}#open">&larr; Recentes</a>
+  <a rel="next" class="posts newer btn small" href="{{ paginator.previous_page_path }}">&larr; Recentes</a>
   {% endif %}
   <span class="posts index">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <a rel="prev" class="posts older btn small" href="{{page_url next}}#open">Antigas &rarr;</a>
+  <a rel="prev" class="posts older btn small" href="{{ paginator.next_page_path }}">Antigas &rarr;</a>
   {% endif %}
-</nav> -->
+</nav>
