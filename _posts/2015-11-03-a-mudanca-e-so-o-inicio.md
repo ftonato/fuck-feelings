@@ -4,7 +4,7 @@ date:   2015-11-03 22:53:59 -0200
 title:  "A mudança é só o início!"
 description:  "Agir de forma diferente da programada é o início para que consigamos chegar a lugares que nunca imaginávamos"
 categories: vida mudancas
-reading-time: 5
+reading-time: 4
 ---
 Hoje eu agi diferente, no início do dia eu tinha outra rotina em mente, mas percebi que, quem segue as regras da vida acaba morrendo de tédio.
 
