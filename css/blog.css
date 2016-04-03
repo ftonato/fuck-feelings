@@ -1,58 +1,58 @@
 #back-button {
-position: absolute;
-top: 2rem;
-left: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
 .btn:hover {
-color: #19838E !important;
-border-color: #19838E !important;
+  color: #19838E !important;
+  border-color: #19838E !important;
 }
 #post-title:hover {
-color: #24BFCF !important;
+  color: #24BFCF !important;
 }
 .post-content a {
-padding: 0px 0.2em;
--webkit-transition: all 0.5s ease 0s;
-transition: all 0.5s ease 0s;
-border-bottom: 1px dashed rgb(255, 46, 108);
+  padding: 0px 0.2em;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  border-bottom: 1px dashed rgb(255, 46, 108);
 }
 .post-content a:hover {
-color: #FFF;
-border-color: rgb(255, 46, 108);
-background: rgb(255, 46, 108) none repeat scroll 0% 0%;
+  color: #FFF;
+  border-color: rgb(255, 46, 108);
+  background: rgb(255, 46, 108) none repeat scroll 0% 0%;
 }
 main {
-position: inherit;
-padding: 0;
-margin: 0 auto;
-max-width: 100%;
+  position: inherit;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .divider.post {
-width: 90%;
-margin: 1.7rem 5%;
-border-top: 1px solid #ddd;
+  width: 90%;
+  margin: 1.7rem 5%;
+  border-top: 1px solid #ddd;
 }
 .btn {
-border: none;
+  border: none;
 }
 .text-center {
-text-align: center;
+  text-align: center;
 }
 /* Social */
 
 .share-twitter {
-color: #22A6D6;
+  color: #22A6D6;
 }
 .share-facebook {
-color: #3C5899;
+  color: #3C5899;
 }
 .share-page {
-padding: .5rem;
-text-align: center;
+  padding: .5rem;
+  text-align: center;
 }
 .share:hover,
 .share:focus {
-color: #FF2E6C !important;
+  color: #FF2E6C !important;
 }
 /* ==========================================================================
  Fonts
@@ -64,18 +64,6 @@ color: #FF2E6C !important;
   font-weight: normal;
   font-style: normal;
 }
-/*@font-face {
-font-family: 'Veger Bold';
-src: url('../fonts/veger-bold-2.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Veger Light';
-src: url('../fonts/veger-light.ttf');
-font-weight: normal;
-font-style: normal;
-}*/
 
 .container-title {
   max-width: 680px;
@@ -86,8 +74,6 @@ font-style: normal;
   text-align: center;
   font-size: 180%;
   font-family: 'Voyager Grotesque', sans-serif;
-  /*font-family: 'Veger Bold', sans-serif;*/
-  /*font-family: 'Veger Light', sans-serif;*/
 
   margin-top: 0;
   margin-top: 5rem;

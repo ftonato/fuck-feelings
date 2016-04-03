@@ -1341,12 +1341,6 @@ p {
       .cover.animated {
         -webkit-transition: all 350ms
       }
-      .pace,
-      .post.reading-time,
-      .post.related,
-      span.post.tags {
-        display: none
-      }
       #search-container {
         display: none!important
       }
@@ -1433,11 +1427,6 @@ p {
       }
     }
     @media all and (max-width: 480px) {
-      .pagination>span,
-      .post .meta>time,
-      .post .tags {
-        display: none
-      }
       main {
         padding: 1rem 0
       }
