@@ -7,7 +7,6 @@
  */
 
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400);
 .block-heading,
  a {
   position: relative
@@ -563,7 +562,6 @@ p {
     .hvr-grow-rotate:focus,
     .hvr-grow-rotate:hover {
       -webkit-transform: scale(1.1) rotate(4deg);
-      -ms-transform: scale(1.1) rotate(4deg);
       transform: scale(1.1) rotate(4deg)
     }
     @-webkit-keyframes hvr-buzz-out {
@@ -745,10 +743,8 @@ p {
       word-wrap: normal;
       word-break: normal;
       -moz-tab-size: 2;
-      -o-tab-size: 2;
       tab-size: 2;
       -webkit-hyphens: none;
-      -moz-hyphens: none;
       -ms-hyphens: none;
       hyphens: none;
       color: #000;
@@ -901,7 +897,6 @@ p {
       padding: 0 .5em;
       font-size: .9em;
       -webkit-transform: none;
-      -ms-transform: none;
       transform: none;
       color: #000;
       border-radius: 0 0 0 5px;
@@ -936,11 +931,11 @@ p {
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
+      align-items: center;
       -ms-flex-align: center;
       align-items: center;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
+      justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
       background: -webkit-linear-gradient(300deg, rgba(95, 44, 130, .1) 30%, rgba(73, 160, 157, .2) 70%) 0 0/cover fixed;
@@ -1061,11 +1056,11 @@ p {
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
+      align-items: center;
       -ms-flex-align: center;
       align-items: center;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
+      justify-content: center;
       -ms-flex-pack: center;
       justify-content: center
     }
@@ -1093,7 +1088,6 @@ p {
       top: 0;
       left: 0;
       -webkit-transform: translate(0, 50px);
-      -ms-transform: translate(0, 50px);
       transform: translate(0, 50px);
       -webkit-animation: move 10s infinite;
       animation: move 10s infinite;
@@ -1234,7 +1228,7 @@ p {
       display: flex;
       padding: 4rem 0 2rem;
       -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
+      justify-content: space-between;
       -ms-flex-pack: justify;
       justify-content: space-between
     }
