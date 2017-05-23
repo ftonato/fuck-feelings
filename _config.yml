@@ -11,8 +11,8 @@ email: ademilsonft@outlook.com
 description: "Esse é um blog com intuito de armazenar experiências e desejos."
 
 #Config
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://morrer.com.br" # the base hostname & protocol for your site
+baseurl: "https://morrer.com.br" # the subpath of your site, e.g. /blog
+url: "https://morrer.com.br" # the base hostname & protocol for your site
 
 # mostrando somente o título
 permalink: /:title/
