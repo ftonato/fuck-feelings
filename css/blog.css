@@ -64,7 +64,6 @@ main {
   font-weight: normal;
   font-style: normal;
 }
-
 .container-title {
   max-width: 680px;
   margin: 0 auto;
@@ -74,7 +73,6 @@ main {
   text-align: center;
   font-size: 180%;
   font-family: 'Voyager Grotesque', sans-serif;
-
   margin-top: 0;
   margin-top: 5rem;
   vertical-align: middle;
@@ -92,7 +90,6 @@ main {
     font-size: 300%;
   }
 }
-
 .main-nav {
   position: absolute;
   top: 1em;
@@ -103,8 +100,7 @@ main {
   line-height: 1rem;
   font-size: 1.1em;
 }
-
-@media only screen and (max-width :480px) {
+@media only screen and (max-width: 480px) {
   .pure-u-1-5 {
     width: 0 !important;
   }
