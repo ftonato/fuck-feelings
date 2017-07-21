@@ -23,7 +23,7 @@ Enquanto um lutar contra seu próprio sentimento, o outro irá dizer que não sa
 Quando um der o primeiro passo, o outro vai retrocer e sentir-se confuso por não encontrar respostas racionais que expliquem ao certo o que ele sente.
 
 Durante o tempo que ambos estiverem mentindo para si mesmo, o amor irá tomando conta pouco a pouco.  
-Em poucas semanas depois, tudo passará a ficar mais intenso, e quando menos esperar suas conversas durarão horas e parecerá ter passado apenas minutos, ainda que ambos não percebam...
+Passadas poucas semanas, tudo ficará mais intenso, e quando menos esperar, suas conversas durarão horas e parecerá ter passado apenas minutos, ainda que ambos não percebam...
 
 Um mês, dois meses, ou três meses se passarão. A saudade vai ser a sua nova companheira de todas as horas. E você irá sentir-se mais confuso do que de costume enquando não entender os motivos disso.
 
