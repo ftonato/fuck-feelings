@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post" role="article">
 	<header>
 		<!--<a id="back-button" class="btn small square" href="javascript:history.back()">← Voltar</a>-->
 		<div class="post meta">
@@ -15,7 +15,7 @@ layout: default
 			<span class="post tags">
 				{% for categorie in page.categories %}
         <!-- <a href="/tag/{{ categorie }}/">{{ categorie }}</a> -->
-				<a href="javascript:;">{{ categorie }}</a>
+				<span>{{ categorie }}</span>
 				{% endfor %}
 			</span>
 		</div>
@@ -31,13 +31,9 @@ layout: default
 	<div class="share-page">
     <span style="display:block; padding: 5px">Compartilhe</span>
 
-    <a class="share share-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Compartilhe no Twitter">
-      Twitter
-    </a>
+    <a class="share share-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Compartilhe no Twitter">Twitter</a>
     &nbsp;
-    <a class="share share-facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Compartilhe no Facebook">
-      Facebook
-    </a>
+    <a class="share share-facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Compartilhe no Facebook">Facebook</a>
   </div>
 
   <!-- Navigation -->

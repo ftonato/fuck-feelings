@@ -30,7 +30,7 @@
   transition: all .5s;
   padding: .1rem .25rem
 }
-.post.tags>a,
+.post.tags>span,
 a {
   -webkit-transition: all 350ms
 }
@@ -1029,7 +1029,7 @@ section.post a:hover {
   font-size: .85rem;
   color: #ccc
 }
-.post.tags>a {
+.post.tags>span {
   padding: .167rem .25rem;
   font-size: .55rem;
   transition: all 350ms;
@@ -1038,13 +1038,13 @@ section.post a:hover {
   border-radius: .25rem;
   background-color: rgba(36, 191, 207, .7)
 }
-.post.tags>a:first-child {
+.post.tags>span:first-child {
   margin-left: .2rem
 }
-.post.tags>a:last-child {
+.post.tags>span:last-child {
   margin-right: .2rem
 }
-.post.tags>a:hover {
+.post.tags>span:hover {
   background-color: #24bfcf
 }
 .post.author img {
